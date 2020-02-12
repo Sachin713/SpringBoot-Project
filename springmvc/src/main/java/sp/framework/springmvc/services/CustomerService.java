@@ -6,6 +6,8 @@ import sp.framework.springmvc.domain.Product;
 import java.util.List;
 
 public interface CustomerService {
+	//this service is for just customers 
+	
     List<Customer> listOfAllCustomers();
 
     Customer getCustomerById(Integer id);
